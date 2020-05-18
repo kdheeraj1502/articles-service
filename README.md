@@ -24,34 +24,34 @@ sts tool or initializer or CDI
 
 ### To save Article
 ```
-http://localhost:8080/api/articles/saveArticles
+http://localhost:8085/api/articles/saveArticles
 ```
 ### To update Article with id
 ```
-http://localhost:8080/api/articles/updateArticle/1
+http://localhost:8085/api/articles/updateArticle/1
 ## 1 is articleId
 ```
 ### To fetch all the Article present on machine
 ```
-http://localhost:8080/api/articles/allArticles?pageNo=0&pageSize=1
+http://localhost:8085/api/articles/allArticles?pageNo=0&pageSize=1
 ```
 ### To delete an Article using uuid present on machine
 ```
-http://localhost:8080/api/articles/delete/a86e5be393c011eaabe3a95c7c9a6bf9
+http://localhost:8085/api/articles/delete/a86e5be393c011eaabe3a95c7c9a6bf9
 ## uuid = a86e5be393c011eaabe3a95c7c9a6bf9
 ```
 ### To fetch all the Tags present on machine
 ```
-http://localhost:8080/api/articles/allTags
+http://localhost:8085/api/articles/allTags
 ```
 ### To fetch read time of the title of an Article using uuid
 ```
-http://localhost:8080/api/articles/readtime/5a565d2293be11eab1a1e15e38bfd222
+http://localhost:8085/api/articles/readtime/5a565d2293be11eab1a1e15e38bfd222
 ## uuid = a86e5be393c011eaabe3a95c7c9a6bf9
 ```
 ### To fetch count of the tags present on machine
 ```
-http://localhost:8080/api/articles/tags/count?pageNo=0&pageSize=10
+http://localhost:8085/api/articles/tags/count?pageNo=0&pageSize=10
 ```
 ###Sample request
 ```
